@@ -1,0 +1,78 @@
+.pic{
+    width: 100%;
+    height: 20rem;
+    object-fit: contain;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-style: groove;
+    border-color: black;
+}
+
+.row{
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.jumbotronjumbotron-fluid{
+    background-image: url(Pics/Cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    text-align:right;
+   }
+
+   .display-1{
+       height: 3em;
+   }
+
+   .footer {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #343a40;
+}
+
+.card{
+    text-align: center;
+    border-style: inset ;
+    border-color: black;
+    border-width: 1mm ;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+p{
+      font-weight: bold;
+  }
+
+  ul{
+    display:inline-flex;
+    list-style-type: none;
+    float: right;
+   align-items: flex-end;
+    
+  }
+
+  #row1{
+      top: 1mm;
+  }
+
+
+  li{
+      padding-left: 1em;
+      
+  }
+
+c1{
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+
+}
